@@ -1,0 +1,308 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Intel 80386
+  Version:                           0x1
+  Entry point address:               0x8000
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          89028 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         2
+  Size of section headers:           40 (bytes)
+  Number of section headers:         17
+  Section header string table index: 16
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .text             PROGBITS        00008000 001000 005956 00  AX  0   0  1
+  [ 2] .rodata           PROGBITS        0000d958 006958 000190 00   A  0   0  4
+  [ 3] .data             PROGBITS        0000eb00 006b00 000159 00  WA  0   0 32
+  [ 4] .bss              NOBITS          0000ec60 006c59 0031e0 00  WA  0   0 32
+  [ 5] .comment          PROGBITS        00000000 006c59 000012 01  MS  0   0  1
+  [ 6] .debug_aranges    PROGBITS        00000000 006c70 000260 00      0   0  8
+  [ 7] .debug_info       PROGBITS        00000000 006ed0 006085 00      0   0  1
+  [ 8] .debug_abbrev     PROGBITS        00000000 00cf55 001e83 00      0   0  1
+  [ 9] .debug_line       PROGBITS        00000000 00edd8 002c9e 00      0   0  1
+  [10] .debug_frame      PROGBITS        00000000 011a78 001690 00      0   0  4
+  [11] .debug_str        PROGBITS        00000000 013108 000b71 01  MS  0   0  1
+  [12] .debug_line_str   PROGBITS        00000000 013c79 00071a 01  MS  0   0  1
+  [13] .debug_rnglists   PROGBITS        00000000 014393 000072 00      0   0  1
+  [14] .symtab           SYMTAB          00000000 014408 000f10 10     15 102  4
+  [15] .strtab           STRTAB          00000000 015318 000800 00      0   0  1
+  [16] .shstrtab         STRTAB          00000000 015b18 0000aa 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x000000 0x00007000 0x00007000 0x06ae8 0x06ae8 R E 0x1000
+  LOAD           0x006b00 0x0000eb00 0x0000eb00 0x00159 0x03340 RW  0x1000
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .text .rodata 
+   01     .data .bss 
+
+There is no dynamic section in this file.
+
+There are no relocations in this file.
+No processor specific unwind information to decode
+
+Symbol table '.symtab' contains 241 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FILE    LOCAL  DEFAULT  ABS start.S.o
+     2: 00008000     0 NOTYPE  LOCAL  DEFAULT    1 main
+     3: 00000000     0 FILE    LOCAL  DEFAULT  ABS anim.c
+     4: 0000ec60     4 OBJECT  LOCAL  DEFAULT    4 frame
+     5: 0000ec64     4 OBJECT  LOCAL  DEFAULT    4 imgs
+     6: 0000ec68     1 OBJECT  LOCAL  DEFAULT    4 index
+     7: 00000000     0 FILE    LOCAL  DEFAULT  ABS console.c
+     8: 000082ee     7 FUNC    LOCAL  DEFAULT    1 cli
+     9: 000082f5     7 FUNC    LOCAL  DEFAULT    1 sti
+    10: 000082fc     7 FUNC    LOCAL  DEFAULT    1 hlt
+    11: 00008303    34 FUNC    LOCAL  DEFAULT    1 clump
+    12: 0000eb00     8 OBJECT  LOCAL  DEFAULT    3 code2char
+    13: 0000ec6c     4 OBJECT  LOCAL  DEFAULT    4 cursor_x
+    14: 0000ec70     4 OBJECT  LOCAL  DEFAULT    4 cursor_y
+    15: 0000ec74     4 OBJECT  LOCAL  DEFAULT    4 cursor_show
+    16: 0000ec78     4 OBJECT  LOCAL  DEFAULT    4 shift_press
+    17: 0000ec7c     4 OBJECT  LOCAL  DEFAULT    4 frame
+    18: 0000ec80     4 OBJECT  LOCAL  DEFAULT    4 task
+    19: 00000000     0 FILE    LOCAL  DEFAULT  ABS image.c
+    20: 0000ec84     4 OBJECT  LOCAL  DEFAULT    4 frame
+    21: 00000000     0 FILE    LOCAL  DEFAULT  ABS line.c
+    22: 0000ec88     4 OBJECT  LOCAL  DEFAULT    4 frame
+    23: 00000000     0 FILE    LOCAL  DEFAULT  ABS nano.c
+    24: 000094e2     7 FUNC    LOCAL  DEFAULT    1 cli
+    25: 000094e9     7 FUNC    LOCAL  DEFAULT    1 sti
+    26: 000094f0     7 FUNC    LOCAL  DEFAULT    1 hlt
+    27: 000094f7    21 FUNC    LOCAL  DEFAULT    1 max
+    28: 0000ec8c     4 OBJECT  LOCAL  DEFAULT    4 frame
+    29: 0000ec90     4 OBJECT  LOCAL  DEFAULT    4 task
+    30: 0000ec94     4 OBJECT  LOCAL  DEFAULT    4 offset
+    31: 0000ec98     4 OBJECT  LOCAL  DEFAULT    4 has_more
+    32: 0000ec9c    16 OBJECT  LOCAL  DEFAULT    4 name
+    33: 00000000     0 FILE    LOCAL  DEFAULT  ABS desc.c
+    34: 00009968    40 FUNC    LOCAL  DEFAULT    1 lgdt
+    35: 00009990    40 FUNC    LOCAL  DEFAULT    1 lidt
+    36: 0000ecac     4 OBJECT  LOCAL  DEFAULT    4 gdt
+    37: 0000ecb0     4 OBJECT  LOCAL  DEFAULT    4 idt
+    38: 00000000     0 FILE    LOCAL  DEFAULT  ABS dev.c
+    39: 00009c25    29 FUNC    LOCAL  DEFAULT    1 inb
+    40: 00009c42    31 FUNC    LOCAL  DEFAULT    1 outb
+    41: 00009c61    34 FUNC    LOCAL  DEFAULT    1 clump
+    42: 00000000     0 FILE    LOCAL  DEFAULT  ABS fifo.c
+    43: 00000000     0 FILE    LOCAL  DEFAULT  ABS file.c
+    44: 0000a092    29 FUNC    LOCAL  DEFAULT    1 inb
+    45: 0000a0af    31 FUNC    LOCAL  DEFAULT    1 inw
+    46: 0000a0ce    31 FUNC    LOCAL  DEFAULT    1 outb
+    47: 0000a0ed    33 FUNC    LOCAL  DEFAULT    1 outw
+    48: 00000000     0 FILE    LOCAL  DEFAULT  ABS frame.c
+    49: 0000aba8    21 FUNC    LOCAL  DEFAULT    1 max
+    50: 0000abbd    21 FUNC    LOCAL  DEFAULT    1 min
+    51: 0000ed00   128 OBJECT  LOCAL  DEFAULT    4 frames
+    52: 0000ed80     2 OBJECT  LOCAL  DEFAULT    4 curr_order
+    53: 0000ed84     4 OBJECT  LOCAL  DEFAULT    4 merge_vram
+    54: 0000ed88     4 OBJECT  LOCAL  DEFAULT    4 cursor
+    55: 0000ed8c     4 OBJECT  LOCAL  DEFAULT    4 close
+    56: 0000ed90     4 OBJECT  LOCAL  DEFAULT    4 img
+    57: 00000000     0 FILE    LOCAL  DEFAULT  ABS graphic.c
+    58: 0000bbe0    31 FUNC    LOCAL  DEFAULT    1 outb
+    59: 0000bbff     7 FUNC    LOCAL  DEFAULT    1 cli
+    60: 0000bc06    16 FUNC    LOCAL  DEFAULT    1 read_eflags
+    61: 0000bc16    11 FUNC    LOCAL  DEFAULT    1 write_eflags
+    62: 0000bc21    21 FUNC    LOCAL  DEFAULT    1 abs
+    63: 0000bc36    21 FUNC    LOCAL  DEFAULT    1 max
+    64: 0000bc4b    21 FUNC    LOCAL  DEFAULT    1 min
+    65: 0000ed94     4 OBJECT  LOCAL  DEFAULT    4 fonts
+    66: 0000eb20   270 OBJECT  LOCAL  DEFAULT    3 rgbs.0
+    67: 00000000     0 FILE    LOCAL  DEFAULT  ABS int.c
+    68: 0000c4a5    29 FUNC    LOCAL  DEFAULT    1 inb
+    69: 0000c4c2    31 FUNC    LOCAL  DEFAULT    1 outb
+    70: 00000000     0 FILE    LOCAL  DEFAULT  ABS kernel_16.c
+    71: 0000c64b    42 FUNC    LOCAL  DEFAULT    1 inb
+    72: 0000c675    45 FUNC    LOCAL  DEFAULT    1 outb
+    73: 0000c6a2    11 FUNC    LOCAL  DEFAULT    1 cli
+    74: 0000c6ad    54 FUNC    LOCAL  DEFAULT    1 lgdt
+    75: 0000c6e3    26 FUNC    LOCAL  DEFAULT    1 read_cr0
+    76: 0000c6fd    18 FUNC    LOCAL  DEFAULT    1 write_cr0
+    77: 0000c70f    43 FUNC    LOCAL  DEFAULT    1 far_jump
+    78: 0000ec30    24 OBJECT  LOCAL  DEFAULT    3 gdt_table
+    79: 0000c73a   146 FUNC    LOCAL  DEFAULT    1 enter_protect_mode
+    80: 0000c7cc   275 FUNC    LOCAL  DEFAULT    1 detect_memory
+    81: 00000000     0 FILE    LOCAL  DEFAULT  ABS kernel_32.c
+    82: 0000c8f5     7 FUNC    LOCAL  DEFAULT    1 cli
+    83: 0000c8fc     7 FUNC    LOCAL  DEFAULT    1 sti
+    84: 0000c903     7 FUNC    LOCAL  DEFAULT    1 hlt
+    85: 0000edb0     4 OBJECT  LOCAL  DEFAULT    4 active_frame
+    86: 0000edb4     4 OBJECT  LOCAL  DEFAULT    4 move_frame
+    87: 0000edb8     4 OBJECT  LOCAL  DEFAULT    4 offsetX
+    88: 0000edbc     4 OBJECT  LOCAL  DEFAULT    4 offsetY
+    89: 00000000     0 FILE    LOCAL  DEFAULT  ABS mem.c
+    90: 0000ee20 12288 OBJECT  LOCAL  DEFAULT    4 mems
+    91: 00000000     0 FILE    LOCAL  DEFAULT  ABS task.c
+    92: 0000d05f    26 FUNC    LOCAL  DEFAULT    1 far_jump
+    93: 0000d079     7 FUNC    LOCAL  DEFAULT    1 hlt
+    94: 0000d080    12 FUNC    LOCAL  DEFAULT    1 write_tr
+    95: 00011e20     2 OBJECT  LOCAL  DEFAULT    4 tss_index
+    96: 00011e24     4 OBJECT  LOCAL  DEFAULT    4 curr_task
+    97: 00011e28     4 OBJECT  LOCAL  DEFAULT    4 task_die
+    98: 00000000     0 FILE    LOCAL  DEFAULT  ABS timer.c
+    99: 00011e3c     4 OBJECT  LOCAL  DEFAULT    4 curr_event
+   100: 00000000     0 FILE    LOCAL  DEFAULT  ABS tool.c
+   101: 0000ec48    17 OBJECT  LOCAL  DEFAULT    3 num2char
+   102: 0000cd12   125 FUNC    GLOBAL DEFAULT    1 init_mem
+   103: 0000a88e   360 FUNC    GLOBAL DEFAULT    1 file_write
+   104: 0000be4a   228 FUNC    GLOBAL DEFAULT    1 draw_block_sub
+   105: 0000a3d8   341 FUNC    GLOBAL DEFAULT    1 file_open
+   106: 0000cde4   253 FUNC    GLOBAL DEFAULT    1 mem_alloc
+   107: 0000b5f7   226 FUNC    GLOBAL DEFAULT    1 frame_alloc
+   108: 0000982d   160 FUNC    GLOBAL DEFAULT    1 nano_init
+   109: 0000bb4f   145 FUNC    GLOBAL DEFAULT    1 click_frame
+   110: 0000c446    95 FUNC    GLOBAL DEFAULT    1 init_graphic
+   111: 0000b1ae   629 FUNC    GLOBAL DEFAULT    1 draw_textbox
+   112: 00009595   363 FUNC    GLOBAL DEFAULT    1 show_content
+   113: 00009bcd    88 FUNC    GLOBAL DEFAULT    1 set_gate_desc
+   114: 0000c9ca   840 FUNC    GLOBAL DEFAULT    1 kernel_main32
+   115: 0000b176    56 FUNC    GLOBAL DEFAULT    1 window_init
+   116: 0000af1a   498 FUNC    GLOBAL DEFAULT    1 draw_window
+   117: 0000c11f   326 FUNC    GLOBAL DEFAULT    1 draw_line
+   118: 0000aa85   141 FUNC    GLOBAL DEFAULT    1 free_file_link
+   119: 0000d51d    34 FUNC    GLOBAL DEFAULT    1 remove_timer
+   120: 0000a7c0   206 FUNC    GLOBAL DEFAULT    1 extend_file
+   121: 00011e2c     4 OBJECT  GLOBAL DEFAULT    4 timer
+   122: 000090eb   120 FUNC    GLOBAL DEFAULT    1 image_click
+   123: 0000c265   179 FUNC    GLOBAL DEFAULT    1 draw_char
+   124: 0000c382   173 FUNC    GLOBAL DEFAULT    1 set_palette
+   125: 00009e61    45 FUNC    GLOBAL DEFAULT    1 init_pit
+   126: 00009fdf    92 FUNC    GLOBAL DEFAULT    1 fifo_read
+   127: 00009b48   133 FUNC    GLOBAL DEFAULT    1 set_seg_desc
+   128: 0000c0d9    70 FUNC    GLOBAL DEFAULT    1 draw_point
+   129: 0000c01e    54 FUNC    GLOBAL DEFAULT    1 fill_alpha
+   130: 000085ed  1166 FUNC    GLOBAL DEFAULT    1 console_exe
+   131: 0000857a   115 FUNC    GLOBAL DEFAULT    1 console_exit
+   132: 000083d8   227 FUNC    GLOBAL DEFAULT    1 add_char
+   133: 0000807e   184 FUNC    GLOBAL DEFAULT    1 anim_step
+   134: 0000cee1   382 FUNC    GLOBAL DEFAULT    1 mem_free
+   135: 0000c4e1   147 FUNC    GLOBAL DEFAULT    1 init_pic
+   136: 0000804e     0 NOTYPE  GLOBAL DEFAULT    1 int_handler_pit
+   137: 0000ae88   146 FUNC    GLOBAL DEFAULT    1 cursor_init
+   138: 00008036     0 NOTYPE  GLOBAL DEFAULT    1 int_handler_mouse
+   139: 00009f34    78 FUNC    GLOBAL DEFAULT    1 fifo_init
+   140: 0000a9f6    61 FUNC    GLOBAL DEFAULT    1 file_flush
+   141: 0000b945   189 FUNC    GLOBAL DEFAULT    1 draw_frame_sub
+   142: 0000d427    26 FUNC    GLOBAL DEFAULT    1 init_timer
+   143: 0000d930    38 FUNC    GLOBAL DEFAULT    1 str_len
+   144: 0000b7ac   117 FUNC    GLOBAL DEFAULT    1 frame_move
+   145: 0000d5cf   126 FUNC    GLOBAL DEFAULT    1 itoa
+   146: 0000b10c   106 FUNC    GLOBAL DEFAULT    1 window_close
+   147: 0000bf2e   240 FUNC    GLOBAL DEFAULT    1 draw_block_sub_alpha
+   148: 00009488    90 FUNC    GLOBAL DEFAULT    1 init_line
+   149: 0000c42f    23 FUNC    GLOBAL DEFAULT    1 palette_init
+   150: 0000b423   390 FUNC    GLOBAL DEFAULT    1 init_frame
+   151: 00009fae    21 FUNC    GLOBAL DEFAULT    1 fifo_can_read
+   152: 00009040    52 FUNC    GLOBAL DEFAULT    1 console_click
+   153: 0000d24a   288 FUNC    GLOBAL DEFAULT    1 create_task
+   154: 0000a10e   213 FUNC    GLOBAL DEFAULT    1 disk_cmd
+   155: 00008009     0 NOTYPE  GLOBAL DEFAULT    1 protect_mode_main
+   156: 0000c574    78 FUNC    GLOBAL DEFAULT    1 handler_kbd
+   157: 00008fa0   160 FUNC    GLOBAL DEFAULT    1 console_init
+   158: 0000c054   133 FUNC    GLOBAL DEFAULT    1 fill_rect
+   159: 0000d36a   189 FUNC    GLOBAL DEFAULT    1 init_task
+   160: 0000ece8     4 OBJECT  GLOBAL DEFAULT    4 window_frame
+   161: 00008066     0 NOTYPE  GLOBAL DEFAULT    1 int_handler_noise
+   162: 0000d4d9    68 FUNC    GLOBAL DEFAULT    1 remove_event
+   163: 0000d53f   144 FUNC    GLOBAL DEFAULT    1 tick_timer
+   164: 0000a340   152 FUNC    GLOBAL DEFAULT    1 find_empty_sel
+   165: 0000cd8f    85 FUNC    GLOBAL DEFAULT    1 mem_total
+   166: 0000d864   139 FUNC    GLOBAL DEFAULT    1 mem_copy
+   167: 000099b8   342 FUNC    GLOBAL DEFAULT    1 init_gdt_idt
+   168: 0000c8df    22 FUNC    GLOBAL DEFAULT    1 kernel_main16
+   169: 0000bc60   237 FUNC    GLOBAL DEFAULT    1 draw_block
+   170: 0000a2cb     6 FUNC    GLOBAL DEFAULT    1 init_file
+   171: 0000d48e    75 FUNC    GLOBAL DEFAULT    1 add_timer
+   172: 0000a5a1   319 FUNC    GLOBAL DEFAULT    1 file_read
+   173: 00009d11   336 FUNC    GLOBAL DEFAULT    1 mouse_decode
+   174: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND _start
+   175: 0000852c    40 FUNC    GLOBAL DEFAULT    1 get_param
+   176: 0000c318   106 FUNC    GLOBAL DEFAULT    1 draw_str
+   177: 00009163   264 FUNC    GLOBAL DEFAULT    1 image_init
+   178: 0000d08c   208 FUNC    GLOBAL DEFAULT    1 idle_task
+   179: 00009b0e    58 FUNC    GLOBAL DEFAULT    1 create_seg_desc
+   180: 0000c5dc    93 FUNC    GLOBAL DEFAULT    1 handler_mouse
+   181: 0000aa33    39 FUNC    GLOBAL DEFAULT    1 file_close
+   182: 00009346   322 FUNC    GLOBAL DEFAULT    1 line_init
+   183: 00008325   179 FUNC    GLOBAL DEFAULT    1 cursor_blink
+   184: 000098cd   155 FUNC    GLOBAL DEFAULT    1 init_nano
+   185: 0000ec59     0 NOTYPE  GLOBAL DEFAULT    4 __bss_start
+   186: 0000a6e0   224 FUNC    GLOBAL DEFAULT    1 file_next_sel
+   187: 0000d1ec    42 FUNC    GLOBAL DEFAULT    1 task_sleep
+   188: 0000c5c2    26 FUNC    GLOBAL DEFAULT    1 handler_pit
+   189: 0000ab12   150 FUNC    GLOBAL DEFAULT    1 file_delete
+   190: 0000d8ef    65 FUNC    GLOBAL DEFAULT    1 str_pfx
+   191: 0000b6ff   173 FUNC    GLOBAL DEFAULT    1 frame_sort
+   192: 00009700   301 FUNC    GLOBAL DEFAULT    1 nano_task
+   193: 0000a03b    87 FUNC    GLOBAL DEFAULT    1 fifo_write
+   194: 00008a7b  1317 FUNC    GLOBAL DEFAULT    1 console_task
+   195: 00009074   119 FUNC    GLOBAL DEFAULT    1 init_console
+   196: 0000edc0    84 OBJECT  GLOBAL DEFAULT    4 ram_info
+   197: 0000b8ca   123 FUNC    GLOBAL DEFAULT    1 frame_refresh
+   198: 000084bb   113 FUNC    GLOBAL DEFAULT    1 clear_cursor
+   199: 0000ba02   333 FUNC    GLOBAL DEFAULT    1 frame_refresh_sub
+   200: 0000d216    52 FUNC    GLOBAL DEFAULT    1 task_exit
+   201: 0000801e     0 NOTYPE  GLOBAL DEFAULT    1 int_handler_kbd
+   202: 0000926b    99 FUNC    GLOBAL DEFAULT    1 init_image
+   203: 00011e30    12 OBJECT  GLOBAL DEFAULT    4 timer_fifo
+   204: 0000c639    18 FUNC    GLOBAL DEFAULT    1 handler_noise
+   205: 0000d7c8    58 FUNC    GLOBAL DEFAULT    1 mem_set
+   206: 0000bd4d   253 FUNC    GLOBAL DEFAULT    1 draw_block_alpha
+   207: 0000d15c   144 FUNC    GLOBAL DEFAULT    1 task_switch
+   208: 0000ecb4    24 OBJECT  GLOBAL DEFAULT    4 mouse
+   209: 0000abd2   694 FUNC    GLOBAL DEFAULT    1 bg_init
+   210: 0000d686   322 FUNC    GLOBAL DEFAULT    1 fmt
+   211: 00008554    38 FUNC    GLOBAL DEFAULT    1 trim_param
+   212: 0000ec59     0 NOTYPE  GLOBAL DEFAULT    3 _edata
+   213: 00011e40     0 NOTYPE  GLOBAL DEFAULT    4 _end
+   214: 0000a2d1   111 FUNC    GLOBAL DEFAULT    1 file_item2file
+   215: 00009e8e   166 FUNC    GLOBAL DEFAULT    1 beep
+   216: 00009c83    29 FUNC    GLOBAL DEFAULT    1 wait_kbd_ready
+   217: 0000ed98    12 OBJECT  GLOBAL DEFAULT    4 kdb_fifo
+   218: 0000a257   116 FUNC    GLOBAL DEFAULT    1 disk_write
+   219: 00008136   158 FUNC    GLOBAL DEFAULT    1 anim_click
+   220: 0000a52d   116 FUNC    GLOBAL DEFAULT    1 make_sure_buff
+   221: 0000d64d    57 FUNC    GLOBAL DEFAULT    1 append
+   222: 0000aa5a    43 FUNC    GLOBAL DEFAULT    1 file_seek
+   223: 0000c90a   192 FUNC    GLOBAL DEFAULT    1 test_task
+   224: 00009cc8    73 FUNC    GLOBAL DEFAULT    1 init_mouse
+   225: 0000b6d9    38 FUNC    GLOBAL DEFAULT    1 frame_top
+   226: 0000ece4     4 OBJECT  GLOBAL DEFAULT    4 cursor_frame
+   227: 00009f82    44 FUNC    GLOBAL DEFAULT    1 fifo_free
+   228: 000092ce   120 FUNC    GLOBAL DEFAULT    1 line_click
+   229: 00008291    93 FUNC    GLOBAL DEFAULT    1 init_anim
+   230: 0000a1e3   116 FUNC    GLOBAL DEFAULT    1 disk_read
+   231: 0000950c   137 FUNC    GLOBAL DEFAULT    1 nano_click
+   232: 0000d441    77 FUNC    GLOBAL DEFAULT    1 insert_event
+   233: 0000d802    98 FUNC    GLOBAL DEFAULT    1 mem_eq
+   234: 0000ece0     4 OBJECT  GLOBAL DEFAULT    4 bg_frame
+   235: 0000b821   169 FUNC    GLOBAL DEFAULT    1 draw_frame
+   236: 00009fc3    28 FUNC    GLOBAL DEFAULT    1 fifo_can_write
+   237: 00009ca0    40 FUNC    GLOBAL DEFAULT    1 init_kbd
+   238: 0000b5a9    78 FUNC    GLOBAL DEFAULT    1 frame_free
+   239: 000081d4   189 FUNC    GLOBAL DEFAULT    1 anim_init
+   240: 0000eda4    12 OBJECT  GLOBAL DEFAULT    4 mouse_fifo
+
+No version information found in this file.

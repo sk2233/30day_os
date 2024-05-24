@@ -1,0 +1,8 @@
+/Users/bytedance/Documents/os/30dayos/raw/build/CMakeFiles/edit_cache.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/CMakeFiles/rebuild_cache.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/source/boot/CMakeFiles/boot.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/source/boot/CMakeFiles/edit_cache.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/source/boot/CMakeFiles/rebuild_cache.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/source/loader/CMakeFiles/loader.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/source/loader/CMakeFiles/edit_cache.dir
+/Users/bytedance/Documents/os/30dayos/raw/build/source/loader/CMakeFiles/rebuild_cache.dir

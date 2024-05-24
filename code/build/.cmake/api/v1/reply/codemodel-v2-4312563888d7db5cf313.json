@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "source/boot",
+					"jsonFile" : "directory-source.boot-Debug-acdf477dc2f6e67294bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "source/boot",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "source/kernel",
+					"jsonFile" : "directory-source.kernel-Debug-110e3854bbd1757c9f8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "source/kernel",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "os"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "boot",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "kernel",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "boot::@a4fbfdde3044a49ad01d",
+					"jsonFile" : "target-boot-Debug-8911a4c85be6271f3f9b.json",
+					"name" : "boot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "kernel::@483af936ae9a949d521e",
+					"jsonFile" : "target-kernel-Debug-c67d938006606cddbd59.json",
+					"name" : "kernel",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/bytedance/Documents/os/30dayos/code/build",
+		"source" : "/Users/bytedance/Documents/os/30dayos/code"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,19 @@
+source/kernel/CMakeFiles/kernel.dir/kernel_32.c.o: \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/kernel_32.c \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/comm/cpu_instr.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/comm/types.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/graphic.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/comm/types.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/desc.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/int.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/fifo.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/dev.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/fifo.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/tool.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/mem.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/timer.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/frame.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/task.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/file.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/comm/config.h \
+ /Users/bytedance/Documents/os/30dayos/code/source/kernel/include/app/console.h

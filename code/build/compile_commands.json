@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/boot",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -m32 -g -g -o CMakeFiles/boot.dir/start.S.o -c /Users/bytedance/Documents/os/30dayos/code/source/boot/start.S",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/boot/start.S"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/boot",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/boot.dir/boot.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/boot/boot.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/boot/boot.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -m32 -g -g -o CMakeFiles/kernel.dir/start.S.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/start.S",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/start.S"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/app/anim.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/app/anim.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/app/anim.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/app/console.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/app/console.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/app/console.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/app/image.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/app/image.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/app/image.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/app/line.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/app/line.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/app/line.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/app/nano.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/app/nano.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/app/nano.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/desc.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/desc.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/desc.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/dev.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/dev.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/dev.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/fifo.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/fifo.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/fifo.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/file.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/file.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/file.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/frame.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/frame.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/frame.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/graphic.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/graphic.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/graphic.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/int.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/int.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/int.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/kernel_16.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/kernel_16.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/kernel_16.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/kernel_32.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/kernel_32.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/kernel_32.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/mem.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/mem.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/mem.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/task.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/task.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/task.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/timer.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/timer.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/timer.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/code/build/source/kernel",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/code/source/kernel/include -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/kernel.dir/tool.c.o -c /Users/bytedance/Documents/os/30dayos/code/source/kernel/tool.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/code/source/kernel/tool.c"
+}
+]

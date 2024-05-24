@@ -1,0 +1,46 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/bytedance/Documents/os/30dayos/code -B /Users/bytedance/Documents/os/30dayos/code/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 12.2.0
+-- Checking whether C compiler has -isysroot
+-- Checking whether C compiler has -isysroot - yes
+-- Checking whether C compiler supports OSX deployment target flag
+-- Checking whether C compiler supports OSX deployment target flag - no
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /usr/local/bin/x86_64-elf-gcc
+-- Check for working C compiler: /usr/local/bin/x86_64-elf-gcc - broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "/usr/local/bin/x86_64-elf-gcc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: '/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b'
+    
+    Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_f1404
+    [1/2] /usr/local/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_f1404.dir/testCCompiler.c.o -c /Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b/testCCompiler.c
+    FAILED: CMakeFiles/cmTC_f1404.dir/testCCompiler.c.o 
+    /usr/local/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_f1404.dir/testCCompiler.c.o -c /Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b/testCCompiler.c
+    x86_64-elf-gcc: error: unrecognized command-line option '-arch'
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (project)
+
+
+-- Configuring incomplete, errors occurred!

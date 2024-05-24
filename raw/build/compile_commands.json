@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/raw/build/source/boot",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/raw/source -m32 -g -g -o CMakeFiles/boot.dir/start.S.o -c /Users/bytedance/Documents/os/30dayos/raw/source/boot/start.S",
+  "file": "/Users/bytedance/Documents/os/30dayos/raw/source/boot/start.S"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/raw/build/source/boot",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/raw/source -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/boot.dir/boot.c.o -c /Users/bytedance/Documents/os/30dayos/raw/source/boot/boot.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/raw/source/boot/boot.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/raw/build/source/loader",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/raw/source -m32 -g -g -o CMakeFiles/loader.dir/start.S.o -c /Users/bytedance/Documents/os/30dayos/raw/source/loader/start.S",
+  "file": "/Users/bytedance/Documents/os/30dayos/raw/source/loader/start.S"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/raw/build/source/loader",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/raw/source -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/loader.dir/loader_16.c.o -c /Users/bytedance/Documents/os/30dayos/raw/source/loader/loader_16.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/raw/source/loader/loader_16.c"
+},
+{
+  "directory": "/Users/bytedance/Documents/os/30dayos/raw/build/source/loader",
+  "command": "/usr/local/bin/x86_64-elf-gcc  -I/Users/bytedance/Documents/os/30dayos/raw/source -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/loader.dir/loader_32.c.o -c /Users/bytedance/Documents/os/30dayos/raw/source/loader/loader_32.c",
+  "file": "/Users/bytedance/Documents/os/30dayos/raw/source/loader/loader_32.c"
+}
+]

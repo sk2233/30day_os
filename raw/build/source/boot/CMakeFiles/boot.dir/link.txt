@@ -1,0 +1,1 @@
+x86_64-elf-ld CMakeFiles/boot.dir/start.S.o CMakeFiles/boot.dir/boot.c.o -m elf_i386  -Ttext=0x7c00  --section boot_end=0x7dfe -o /Users/bytedance/Documents/os/30dayos/raw/build/source/boot/boot.elf

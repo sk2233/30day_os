@@ -1,0 +1,99 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      The system is: Darwin - 23.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:29 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/local/bin/x86_64-elf-gcc 
+      Build flags: -g;-c;-O0;-m32;-fno-pie;-fno-stack-protector;-fno-asynchronous-unwind-tables
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:29 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S3ic18"
+      binary: "/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S3ic18"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-S3ic18'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_44904
+        [1/2] /usr/local/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always   -v -Wl,-v -o CMakeFiles/cmTC_44904.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        FAILED: CMakeFiles/cmTC_44904.dir/CMakeCCompilerABI.c.o 
+        /usr/local/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always   -v -Wl,-v -o CMakeFiles/cmTC_44904.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/local/bin/x86_64-elf-gcc
+        x86_64-elf-gcc: error: unrecognized command-line option '-arch'
+        Target: x86_64-elf
+        Configured with: ../configure --target=x86_64-elf --prefix=/usr/local/Cellar/x86_64-elf-gcc/12.2.0 --infodir=/usr/local/Cellar/x86_64-elf-gcc/12.2.0/share/info/x86_64-elf --disable-nls --without-isl --without-headers --with-as=/usr/local/opt/x86_64-elf-binutils/bin/x86_64-elf-as --with-ld=/usr/local/opt/x86_64-elf-binutils/bin/x86_64-elf-ld --enable-languages=c,c++
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 12.2.0 (GCC) 
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:29 (project)"
+    checks:
+      - "Check for working C compiler: /usr/local/bin/x86_64-elf-gcc"
+    directories:
+      source: "/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b"
+      binary: "/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b'
+        
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -v cmTC_f1404
+        [1/2] /usr/local/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_f1404.dir/testCCompiler.c.o -c /Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b/testCCompiler.c
+        FAILED: CMakeFiles/cmTC_f1404.dir/testCCompiler.c.o 
+        /usr/local/bin/x86_64-elf-gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_f1404.dir/testCCompiler.c.o -c /Users/bytedance/Documents/os/30dayos/code/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ekwp5b/testCCompiler.c
+        x86_64-elf-gcc: error: unrecognized command-line option '-arch'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
